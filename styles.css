@@ -1,9 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-    background: #e6d6f7;
+    background: #d6c6f7;
     font-family: 'Segoe UI', Arial, sans-serif;
     color: #333;
+}
+
+header .profile-pic {
+    display: block;
+    margin: 0 auto 16px auto;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .container {
